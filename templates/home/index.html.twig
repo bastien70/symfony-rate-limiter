@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+<b>Limit :</b> {{ limit }} <br>
+<b>Remaining :</b> {{ remaining }} <br>
+<b>RetryAfter :</b> {{ retryAfter|date('Y-m-d H:i:s') }} <br>
+{% endblock %}
